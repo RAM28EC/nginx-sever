@@ -18,7 +18,7 @@ server {
 }
 }
 :wq
-creating soft link 
+creating soft link ..
 sudo ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 sudo nginx -t
 sudo systemctl restart nginx
