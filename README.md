@@ -23,7 +23,7 @@ sudo ln -s /etc/nginx/sites-available/default /etc/nginx/sites-enabled/default
 sudo nginx -t
 sudo systemctl restart nginx
 ifconfig
-nginxpublicip
+nginx publicip
 lets take another example
 for dockerize and then we docker run on any port and expose to outside world (publicip:5000)this not good concept so for that we use here nginx reverse proxy
 We know that locl host is http://127.0.0.1
